@@ -1,5 +1,5 @@
-var foydalanuvchi_nomi = prompt("Foydalanuvchi nomini kiriting:");
-var parol = prompt("Parolni kiriting:");
+let foydalanuvchi_nomi = prompt("Foydalanuvchi nomini kiriting:");
+let parol = prompt("Parolni kiriting:");
 
 
 if (foydalanuvchi_nomi === "foydalanuvchi" && parol === "o'tish") {
