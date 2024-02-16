@@ -3,7 +3,7 @@ var password = prompt("Введите пароль:");
 
 
 if (username === "user" && password === "pass") {
-    console.log("Login Gained");
+    alert("Login Gained");
 } else {
-    console.log("Login Failed");
+    alert("Login Failed");
 }
