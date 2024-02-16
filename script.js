@@ -1,5 +1,5 @@
-let foydalanuvchi_nomi = prompt("Foydalanuvchi nomini kiriting:").toLocaleLowerCase()
-let parol = prompt("Parolni kiriting:").toLocaleLowerCase()
+let foydalanuvchi_nomi = prompt("Foydalanuvchi nomini kiriting:").toLowerCase()
+let parol = prompt("Parolni kiriting:").toLowerCase()
 
 
 if (foydalanuvchi_nomi === "foydalanuvchi" && parol === "o'tish") {
