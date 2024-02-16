@@ -1,5 +1,5 @@
-var username = prompt("Введите имя пользователя:");
-var password = prompt("Введите пароль:");
+let username = prompt("Введите имя пользователя:");
+let password = prompt("Введите пароль:");
 
 
 if (username === "user" && password === "pass") {
