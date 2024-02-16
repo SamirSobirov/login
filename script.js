@@ -1,9 +1,9 @@
-let username = prompt("Введите имя пользователя:");
-let password = prompt("Введите пароль:");
+var foydalanuvchi_nomi = prompt("Foydalanuvchi nomini kiriting:");
+var parol = prompt("Parolni kiriting:");
 
 
-if (username === "user" && password === "pass") {
-    alert("Login Gained");
+if (foydalanuvchi_nomi === "foydalanuvchi" && parol === "o'tish") {
+    alert("Kirish muvaffaqiyatli");
 } else {
-    alert("Login Failed");
+    alert("Kirish amalga oshmadi");
 }
